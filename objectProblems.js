@@ -9,7 +9,7 @@ const colors = {
     "golden rod": '#daa520'
 };
 
-console.log(colors.red)
+console.log(colors['golden rod'])
 
 
 //2no problem------------------------------
