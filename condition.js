@@ -238,6 +238,5 @@ if( ( javaScript > typeScript ) || ( typeScript > javaScript ) ){
 
    console.log('javaScript is ok')
 
-
 }
 

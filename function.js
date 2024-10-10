@@ -129,79 +129,124 @@
 ///////////////////////////////////////////math
 
 
-function aponMath(num1, num2, num3, num4){
+// function aponMath(num1, num2, num3, num4){
 
 
-    const allnum = num1 + num2 + num3 + num4
+//     const allnum = num1 + num2 + num3 + num4
 
-    const numerzs = allnum * 10;
+//     const numerzs = allnum * 10;
 
-    const allN = numerzs / 2
+//     const allN = numerzs / 2
 
-    const numx = allN - 10
+//     const numx = allN - 10
 
-    console.log(numx)
-
-
-    if(numx > 100){
-
-       console.log('we had do our math')
-
-    } else {
-
-       console.log('we had not do our math')
-
-    }
+//     console.log(numx)
 
 
-}
+//     if(numx > 100){
+
+//        console.log('we had do our math')
+
+//     } else {
+
+//        console.log('we had not do our math')
+
+//     }
 
 
-const allMath = aponMath(20, 30, 50, 100)
-
-// console.log(allMath);
+// }
 
 
+// const allMath = aponMath(20, 30, 50, 100)
 
-
-function array(ages){
-
-   const boyos = ages
-
-   return boyos
-
-
-}
-
-
-const allAges = array([12, 34, 45, 45, 43, 65, 23])
-
-console.log(allAges)
+// // console.log(allMath);
 
 
 
-//////////////////////
+
+// function array(ages){
+
+//    const boyos = ages
+
+//    return boyos
+
+
+// }
+
+
+// const allAges = array([12, 34, 45, 45, 43, 65, 23])
+
+// console.log(allAges)
 
 
 
-function none(obj1, obj2, obj3){
+// //////////////////////
+
+
+
+// function none(obj1, obj2, obj3){
 
    
-      const allObj = obj1 + obj2 + obj3;
+//       const allObj = obj1 + obj2 + obj3;
 
-      console.log(allObj)
+//       console.log(allObj)
 
-      if(allObj > 200){
+//       if(allObj > 200){
 
-         console.log('code ta thik ache bro')
+//          console.log('code ta thik ache bro')
+
+//       } else {
+//          console.log('code thik nei ')
+//       }
+
+// }
+
+// none(20, 30, 50)
+
+
+// function allNumZ(num1, num2 ){
+
+
+//    const allZ = num1 * num2;
+
+//    const numZ = allZ / 500;
+
+//    console.log(numZ)
+
+// }
+
+// allNumZ(20, 1000);
+
+
+function allValueZ( run1, run2, run3 ){
+
+    
+      const value = run1 + run2 + run3;
+
+      const allValue = value * 400;
+
+      const allRunZ = allValue / 300;
+
+      console.log(allRunZ)
+
+
+      if(allRunZ > 200){
+
+          console.log('Good CodZ')
 
       } else {
-         console.log('code thik nei bara')
+          
+          console.log('code is not good')   
+       
       }
+
 
 }
 
-none(20, 30, 50)
+allValueZ( 40, 50, 60)
+
+
+
 
 
 
