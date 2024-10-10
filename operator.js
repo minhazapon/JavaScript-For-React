@@ -76,3 +76,48 @@ const logical2 = (quota > 150) || (quota2 < 10);
 
 
 
+
+/////arithMatic operator////
+
+
+const numZ1 = 20;
+const numZ2 = 30;
+
+const allNumz = numZ1 + numZ2;
+
+const pasta = 400 / allNumz
+const noddles = 500 + pasta 
+const curd = 300 * noddles
+const rosomalai = 600 - curd 
+const allFood = pasta + noddles + curd + rosomalai
+console.log(allFood)
+
+
+
+/////relational operator///////
+
+
+const aponTheMernstack = 500;
+const aponTheFullStack = 1000;
+
+const stack = aponTheMernstack <= aponTheFullStack;
+console.log(stack)
+
+const stack2 = aponTheFullStack < aponTheMernstack;
+console.log(stack2)
+
+const allStack = aponTheMernstack === aponTheFullStack;
+console.log(allStack)
+
+
+
+const allOff = ( aponTheFullStack > aponTheMernstack ) && ( aponTheFullStack === aponTheMernstack );
+
+console.log(allOff)
+
+const AllEnginners = ( aponTheFullStack > aponTheMernstack ) || ( aponTheMernstack > aponTheFullStack );
+
+console.log(AllEnginners)
+
+
+
