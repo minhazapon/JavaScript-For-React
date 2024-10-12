@@ -68,3 +68,67 @@ const fY =  findZ.find( fin => fin < 50 )
 
 console.log(fY)
 
+
+
+/////destructure/////
+
+
+const AponSkills = {
+     
+     tech1: 'javaScript',
+     tech2: 'typeScript',
+     tech3: 'reactJs',
+     tech4: 'next.js',
+     tech5: 'node.js',
+     tech6: 'express.js',
+     tech7: 'AWS'
+
+
+}
+
+const {tech1, tech7, tech5} = AponSkills
+
+console.log(tech1, tech7, tech5)
+
+
+//////keys value////////
+
+
+const Food ={
+
+    f1: 'biriyani',
+    f2: 'burger',
+    f3: 'kalaVuna',
+    f4: 'kabuli polaw',
+
+} 
+
+const keys = Object.keys(Food);
+console.log(keys)
+
+
+//////dot and bracket/////////////
+
+
+const politicalParty = {
+
+     p1: 'bangladesh national party',
+     p2: 'jamat e islami',
+
+}
+
+
+console.log(politicalParty.p1);
+console.log(politicalParty['p2']);
+
+
+
+////////array push pop///////////////
+
+
+const language = [ 'javaScript', 'python', 'Go', 'java', 'ruby and rails' ]
+
+//   language.pop();
+  language.push('php')
+
+console.log(language)  
