@@ -1,5 +1,5 @@
 
-// Basic Array
+    // Basic Array
 
 
     const tech = ['html', 'css', 'javaScript', 'react.js', 'next.js', 'DSA', 'node.js', 'postgreSQL' ];
@@ -49,153 +49,204 @@
 
 
 
-// ----------------------------------------------------
+    // ----------------------------------------------------
+
+
+    //basic array--
+    
+    
+    const names = ['fahim', 'apon', 'rinu', 'shemanto', 'irfan', 'ovi', 'prottoy']
+    
+    console.log(names);
+    
+    const party = ['bnp', 'jamat', 'jatio party', 'chormonai', "gonoodhikar", ]
+    
+    console.log(party);
+    
+    const jhenaidaBnp = ['moshiur rahman', 'mozid', 'choto mozid', 'rahmat vai', 'somin vai']
+    console.log(jhenaidaBnp);
+    
+    
+    const techLanguages = ['javaScript', 'python', 'java', 'C++', 'c##', 'dart', 'go', 'rubay']
+    
+    console.log(techLanguages);
+    
+    
+    
+    // lenght -------------------------------------------------------
+    
+    
+    const numbers = [12, 344, 4545, 234, 45 ,45, 55 ,]
+    
+    console.log(numbers.length);
+    
+    const river = ['podda', 'meghna', 'jamuna', 'gorai', 'rupsha', 'navaganga']
+    
+    console.log(river.length);
+    
+    const districs = ['jhenaida', 'jashore', 'kushtia', 'meherpur', 'chuadanga' ]
+    
+    console.log(districs.length);
+    
+    
+    // index -------------------------------------------------------------
+    
+    const javaScriptTech = ['react.js', 'node.js', 'postgreSQL', 'express.js']
+    
+    console.log(javaScriptTech[3]);
+    
+    const pythonTech = ['flex', 'DJango']
+    
+    console.log(pythonTech[1]);
+    
+    const indiaPlace = ['kashmir', 'manali', 'ladakh', 'jammu', 'karela', 'kolkata', 'mumbai']
+    
+    console.log(indiaPlace[4]);
+    
+    const islamiCountry = ['afganistan', 'bangladesh', 'pakistan', 'saudi arabia', 'turkey']
+    
+    console.log(islamiCountry[4])
+    
+    
+    // push------------------------------
+    
+    
+    const bangladesh = ['dhaka', 'chittagong', 'khulna', 'rangpur', 'syleth'];
+    
+    bangladesh.push('barishal')
+    
+    console.log(bangladesh)
+    
+    
+    const jhenaida = ['jhenaida sadar', 'kaliganz', 'mmohespur', ]
+    
+    jhenaida.push('kotchadpur', 'shoilokupa');
+    
+    console.log(jhenaida);
+    
+    
+    const aponSkills = ['DSA']
+    
+    aponSkills.push('react.js', 'javaScript')
+    console.log(aponSkills)
+    
+    
+    //pop---------------------------------------------------
+    
+    const bongoParties = ['bnp', 'jamat', 'jatio party',  ]
+    
+    bongoParties.pop();
+    
+    console.log(bongoParties);
+    
+    const aponFamily = ['apon', 'orin', 'ohid', 'mini', 'dhini']
+    
+    aponFamily.pop();
+    
+    console.log(aponFamily)
+    
+    
+    //includes---------------------------------------------------------
+    
+    
+    const frutsName = ['mango', 'apple', 'jackFruts', 'pepe', 'khajoor']
+    
+    console.log(frutsName.includes('khajoor'));
+    
+    const countryNames = ['bangladesh', 'india', 'pakistan', 'myanmar', 'america']
+    
+    console.log(countryNames.includes('pakistan'))
+    
+    
+    console.log(Array.isArray(frutsName));
+    
+    const apon = 100;
+    
+    console.log(Array.isArray(apon))
+    
+    
+    
+    
+    const aponTech = [ 'javaScript', 'typeScript', 'react.js', 'next.js', 'redux', 'nodejs', 'expressJs', 'mongoDB', 'mongoose', 'graphQl', 'AWS', 'docker' ];
+    
+    console.log(aponTech);
+    
+    console.log(aponTech[4]);
+    
+    console.log(aponTech[8]);
+    
+    console.log(aponTech[2]);
+    
+    console.log(aponTech[3]);
+    
+    
+    aponTech[9] = 'html';
+    aponTech[8] = 'css';
+    console.log(aponTech);
+    
+    
+    const aponStack = [ 'frontEND DEVELOPER', 'backend developer', 'mernStack developer', 'full stack engineers' ]
+    
+    console.log(aponStack);
+    
+    aponStack[4] = 'aws engineers';
+    aponStack[5] = 'software developer'
+    
+    console.log(aponStack);
+    console.log(aponStack.length)
 
 
-//basic array--
 
+     
+    /////array////
 
-const names = ['fahim', 'apon', 'rinu', 'shemanto', 'irfan', 'ovi', 'prottoy']
 
-console.log(names);
+    //basic///
 
-const party = ['bnp', 'jamat', 'jatio party', 'chormonai', "gonoodhikar", ]
 
-console.log(party);
+    const sea = [ 'deep sea', 'atlantic sea', 'bay of bengal', 'red sea' ] 
 
-const jhenaidaBnp = ['moshiur rahman', 'mozid', 'choto mozid', 'rahmat vai', 'somin vai']
-console.log(jhenaidaBnp);
+    console.log(sea)
+    console.log(sea[3]) 
+    console.log(sea[0])
+    console.log(sea[1])
+    console.log(sea[2])
 
 
-const techLanguages = ['javaScript', 'python', 'java', 'C++', 'c##', 'dart', 'go', 'rubay']
+    //array in length////
 
-console.log(techLanguages);
 
+    const allNumbers = [ 12, 234, 35, 566, 255, 75, 35, 355, 256 ] 
 
+    console.log(allNumbers.length)
 
-// lenght -------------------------------------------------------
 
+    ///array in push///
 
-const numbers = [12, 344, 4545, 234, 45 ,45, 55 ,]
 
-console.log(numbers.length);
+    const allRiver = [ 'podda', 'meghna', 'jamuna', 'mathavanga' ] 
 
-const river = ['podda', 'meghna', 'jamuna', 'gorai', 'rupsha', 'navaganga']
+    allRiver.push('gorai, modhumoti') 
 
-console.log(river.length);
+    console.log(allRiver)
 
-const districs = ['jhenaida', 'jashore', 'kushtia', 'meherpur', 'chuadanga' ]
 
-console.log(districs.length);
+    ////array in pop//
 
+    const allParty = [ 'bnp', 'jamat', 'awmilig', 'jatioparty' ]
 
-// index -------------------------------------------------------------
+    allParty.pop([2]) 
+    allParty.pop()
 
-const javaScriptTech = ['react.js', 'node.js', 'postgreSQL', 'express.js']
+    console.log(allParty)
 
-console.log(javaScriptTech[3]);
+    
+    ////includes
 
-const pythonTech = ['flex', 'DJango']
+    const tourPlaces = [ 'kashmir', 'kolkata', 'mumbai', 'karimganz', 'saudi arab', 'south india' ] 
 
-console.log(pythonTech[1]);
 
-const indiaPlace = ['kashmir', 'manali', 'ladakh', 'jammu', 'karela', 'kolkata', 'mumbai']
-
-console.log(indiaPlace[4]);
-
-const islamiCountry = ['afganistan', 'bangladesh', 'pakistan', 'saudi arabia', 'turkey']
-
-console.log(islamiCountry[4])
-
-
-// push------------------------------
-
-
-const bangladesh = ['dhaka', 'chittagong', 'khulna', 'rangpur', 'syleth'];
-
-bangladesh.push('barishal')
-
-console.log(bangladesh)
-
-
-const jhenaida = ['jhenaida sadar', 'kaliganz', 'mmohespur', ]
-
-jhenaida.push('kotchadpur', 'shoilokupa');
-
-console.log(jhenaida);
-
-
-const aponSkills = ['DSA']
-
-aponSkills.push('react.js', 'javaScript')
-console.log(aponSkills)
-
-
-//pop---------------------------------------------------
-
-const bongoParties = ['bnp', 'jamat', 'jatio party',  ]
-
-bongoParties.pop();
-
-console.log(bongoParties);
-
-const aponFamily = ['apon', 'orin', 'ohid', 'mini', 'dhini']
-
-aponFamily.pop();
-
-console.log(aponFamily)
-
-
-//includes---------------------------------------------------------
-
-
-const frutsName = ['mango', 'apple', 'jackFruts', 'pepe', 'khajoor']
-
-console.log(frutsName.includes('khajoor'));
-
-const countryNames = ['bangladesh', 'india', 'pakistan', 'myanmar', 'america']
-
-console.log(countryNames.includes('pakistan'))
-
-
-console.log(Array.isArray(frutsName));
-
-const apon = 100;
-
-console.log(Array.isArray(apon))
-
-
-
-
-const aponTech = [ 'javaScript', 'typeScript', 'react.js', 'next.js', 'redux', 'nodejs', 'expressJs', 'mongoDB', 'mongoose', 'graphQl', 'AWS', 'docker' ];
-
-console.log(aponTech);
-
-console.log(aponTech[4]);
-
-console.log(aponTech[8]);
-
-console.log(aponTech[2]);
-
-console.log(aponTech[3]);
-
-
-aponTech[9] = 'html';
-aponTech[8] = 'css';
-console.log(aponTech);
-
-
-const aponStack = [ 'frontEND DEVELOPER', 'backend developer', 'mernStack developer', 'full stack engineers' ]
-
-console.log(aponStack);
-
- aponStack[4] = 'aws engineers';
- aponStack[5] = 'software developer'
-
-console.log(aponStack);
-console.log(aponStack.length)
-
-
+    console.log(tourPlaces.includes('kashmir')) 
 
 
 
