@@ -199,4 +199,24 @@ console.log(language)
     const allFils = fils.filter( fls => fls < 50 ) 
 
     console.log(allFils)
+
+    ///destructure/////////
+
+    const allValue = {
+
+           country1: 'bangladesh',
+           country2: 'pakistan',
+           country3: 'afganistan',
+           country4: 'saudi arab',
+           country5: 'syria',
+ 
+    }
+
+    const {country1, country2, country3, country4, country5} = allValue
+    
+
+    console.log( country1, country2 )
+
+
+    
     
