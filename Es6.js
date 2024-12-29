@@ -132,3 +132,29 @@ const language = [ 'javaScript', 'python', 'Go', 'java', 'ruby and rails' ]
   language.push('php')
 
 console.log(language)  
+
+
+
+
+//////////es6.js///////////////////////
+
+
+    ///template string/////////
+ 
+    const allProducts = ` pc, laptop, clothes, frutZ, books, etc. ` 
+
+    console.log(allProducts)
+
+
+    ////arrow function/////
+
+    const func = ( x, y, z  ) =>{
+
+       const all = x + y + z 
+
+       console.log(all)
+
+    }
+
+    func(1000, 2000, 3000) 
+    

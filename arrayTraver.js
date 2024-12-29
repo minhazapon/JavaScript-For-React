@@ -199,23 +199,49 @@ const minhazDreams = ['google', 'toptal', 'amazon', 'facebook', 'ollyo']
   console.log(backEnd);     
 
   const backEndEngineering = [ 'AWS', 'docker', 'mongoDB', 'mongoose', 'nodeJs', 'expressJs',  ];
-
-
        backEnd.sort();
-
   console.log(backEnd);     
 
-
-
   for( let i =1; i < backEndEngineering.length; i++ ){
-
        console.log(backEndEngineering)
-
-
   }
 
 
 
+///////////////array traverse//////////////////////////
+
+
+
+    
+     const name = [ 'bangladesh', 'india', 'pakistan', 'america', 'afgan', 'saudi arab' ] 
+
+
+     for( i = 0; i < name.length; i++ ){
+       
+          console.log(name[i])
+
+     }
+
+     const numers = [ 12, 34, 455, 566, 6, 5667, 2345, 356, 546, ] 
+
+     numers.reverse();
+
+
+     console.log(numers)
+
+
+     const aponNumerZ = [ 2344, 35, 245, 566, 355, 3566, 3566, 24 ] 
+
+     apoNumberz.sort();
+
+     console.log(apoNumberz)
+
+
+     const apoSkilZ = [ 'javaScript', 'TypeScript', 'React.js', 'next.js', 'redux', 'DSA' ] 
+
+     apoSkilZ.sort();
+
+     console.log(apoSkilZ)
 
 
 

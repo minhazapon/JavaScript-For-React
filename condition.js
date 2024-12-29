@@ -113,7 +113,7 @@ if( bnp > awmilig ){
 }
 
 
-const javaScript = 80000;
+// const javaScript = 80000;
 
 const python = 80000;
 
@@ -239,4 +239,37 @@ if( ( javaScript > typeScript ) || ( typeScript > javaScript ) ){
    console.log('javaScript is ok')
 
 }
+
+
+
+
+///////////////condition/////////////////////////
+
+
+
+
+
+    const bangladesh = 60000;
+
+    const saudiArab = 80000
+
+
+    if( bangladesh > saudiArab ){
+     
+        console.log('this code good ')
+  
+
+    } else{
+
+
+       console.log('code is not good')
+
+    }
+
+   
+    
+
+
+
+
 
