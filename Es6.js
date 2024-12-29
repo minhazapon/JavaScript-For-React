@@ -157,4 +157,37 @@ console.log(language)
     }
 
     func(1000, 2000, 3000) 
-    
+
+
+    ///spread operator/////
+
+    const nums = [ 12, 2434, 345, 355, 23455, 24 ]
+
+    console.log(...nums + nums)
+
+
+    ////map///
+
+    const items = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+   
+    const allItems = items.map( i => i*i ) 
+
+    console.log(allItems)
+
+
+    ///forEach////
+
+
+    const ForAll = [ 222, 345, 5456, 5566, 566, 45  ] 
+
+    const FA = ForAll.forEach( f => f + 20 ) 
+
+    console.log(FA)
+
+    ////find///////
+
+    const FND = [ 12, 34, 45, 566, 35, 45 ] 
+
+    const fn = FND.find( nd => nd * 5 ) 
+
+    console.log(fn)
