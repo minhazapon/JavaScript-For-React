@@ -191,3 +191,12 @@ console.log(language)
     const fn = FND.find( nd => nd * 5 ) 
 
     console.log(fn)
+
+    ///filter/////
+
+    const fils = [ 123, 234, 3445, 566, 4566, 78, 78, 2, 4, 6 ] 
+
+    const allFils = fils.filter( fls => fls < 50 ) 
+
+    console.log(allFils)
+    
