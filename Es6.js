@@ -218,5 +218,27 @@ console.log(language)
     console.log( country1, country2 )
 
 
+    ////key and value//////
     
+
+    const allValue2 = {
+
+        country1: 'bangladesh',
+        country2: 'pakistan',
+        country3: 'afganistan',
+        country4: 'saudi arab',
+        country5: 'syria',
+
+    }
+
+
+    const allKeys = Object.keys(allValue2) 
+
+    console.log(allKeys)
+
+
+    ///dot and br./////
+
+
+ 
     
