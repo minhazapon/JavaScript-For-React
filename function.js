@@ -218,33 +218,72 @@
 // allNumZ(20, 1000);
 
 
-function allValueZ( run1, run2, run3 ){
+// function allValueZ( run1, run2, run3 ){
 
     
-      const value = run1 + run2 + run3;
+//       const value = run1 + run2 + run3;
 
-      const allValue = value * 400;
+//       const allValue = value * 400;
 
-      const allRunZ = allValue / 300;
+//       const allRunZ = allValue / 300;
 
-      console.log(allRunZ)
+//       console.log(allRunZ)
 
 
-      if(allRunZ > 200){
+//       if(allRunZ > 200){
 
-          console.log('Good CodZ')
+//           console.log('Good CodZ')
 
-      } else {
+//       } else {
           
-          console.log('code is not good')   
+//           console.log('code is not good')   
        
-      }
+//       }
 
 
-}
+// }
 
-allValueZ( 40, 50, 60)
+// allValueZ( 40, 50, 60)
 
+
+
+
+
+////////////////function/////////////////////////////
+
+
+
+
+    function bangladesh( jhenaidah, magura ){
+        
+         const allCountry = jhenaidah + magura 
+    
+         const country = allCountry - 30 
+    
+         const CC = country * 111 
+    
+         console.log(CC)
+
+
+         if(CC > 50){
+
+           const Con = 80 + 80 
+           
+           console.log(Con)
+            
+         } else {
+
+           console.log('code is not good')
+
+         }
+    
+    
+    }
+
+
+    bangladesh( 80, 90 )
+    
+   
 
 
 
