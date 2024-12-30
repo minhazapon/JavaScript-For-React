@@ -120,4 +120,9 @@ const AllEnginners = ( aponTheFullStack > aponTheMernstack ) || ( aponTheMernsta
 console.log(AllEnginners)
 
 
+const softwareEnginner = ( aponTheFullStack < aponTheMernstack ) || ( aponTheMernstack > aponTheFullStack );
+
+console.log(softwareEnginner)
+
+
 
